@@ -1,9 +1,9 @@
 # Code that simulates a basic biomechanics problem involving projectile motion
 
-In this sample of code, I calculate the trajectory of a projectile launched at a certain angle and initial velocity, taking into account the effects of gravity.
+This code sample shows the code implementation, make sure you have the XChart library installed. It's necessary add project's dependencies in your preferred build tool (e.g., Maven, Gradle).
 
-I simulates the trajectory of a projectile using kinematic equations and considers the effects of gravity. 
+I've added calculations for air resistance to the projectile motion simulation. The code now calculates the drag force, acceleration, and updated velocity components considering air resistance. 
 
-It calculates the time of flight, horizontal range, and maximum height of the projectile. 
+The chart displays the trajectory of the projectile, including the effect of air resistance. .
 
-Keep in mind that this is a simplified sample.
+PS: To works like a charm you need the XChart library installed and configured to run this code.
